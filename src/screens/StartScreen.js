@@ -19,7 +19,10 @@ const StartScreen = ({ navigation }) => (
     >
       Sign Up
     </Button>
-    <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
+    <Button
+      mode="contained"
+      onPress={() => navigation.navigate('MerchantLoginScreen')}
+    >
       Merchant Login
     </Button>
   </Background>
