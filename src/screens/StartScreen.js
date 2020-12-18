@@ -9,9 +9,7 @@ const StartScreen = ({ navigation }) => (
   <Background>
     <Logo />
     <Header>ಅಂtara</Header>
-    <Paragraph>
-      Get your nearest shop in on tap.
-    </Paragraph>
+    <Paragraph>Get your nearest shop in one tap.</Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
       Login
     </Button>
@@ -20,6 +18,9 @@ const StartScreen = ({ navigation }) => (
       onPress={() => navigation.navigate('RegisterScreen')}
     >
       Sign Up
+    </Button>
+    <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
+      Merchant Login
     </Button>
   </Background>
 )

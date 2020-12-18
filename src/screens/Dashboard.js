@@ -8,11 +8,8 @@ import Button from '../components/Button'
 const Dashboard = ({ navigation }) => (
   <Background>
     <Logo />
-    <Header>Let’s start</Header>
-    <Paragraph>
-      Your amazing app starts here. Open you favorite code editor and start
-      editing this project.
-    </Paragraph>
+    <Header>Welcome to Antara app.</Header>
+    <Paragraph>Get the nearest app to your area.</Paragraph>
     <Button
       mode="outlined"
       onPress={() =>
