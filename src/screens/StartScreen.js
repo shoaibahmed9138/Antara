@@ -23,7 +23,7 @@ const StartScreen = ({ navigation }) => (
       mode="contained"
       onPress={() => navigation.navigate('MerchantLoginScreen')}
     >
-      Merchant Login
+      Shop Manager
     </Button>
   </Background>
 )

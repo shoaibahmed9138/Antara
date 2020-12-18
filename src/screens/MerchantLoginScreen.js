@@ -25,7 +25,7 @@ const MerchantLoginScreen = ({ navigation }) => {
     }
     navigation.reset({
       index: 1,
-      routes: [{ name: 'Dashboard' }],
+      routes: [{ name: 'MerchantDashboard' }],
     })
   }
 
